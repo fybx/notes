@@ -8,6 +8,12 @@ $y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan
 - $S=2\pi \int_a^b f(x)\sqrt{1+[f'(x)]^2}dx$ $br^2$
 olarak hesaplanır.
 
+###### Örnek 1:
+$f(x)=\sqrt{16-x^2}$ eğrisinin $[-4,0]$ aralığındaki yayının x-ekseni etrafında döndürülmesiyle oluşan dönel cismin yüzey alanını hesaplayınız.
+###### Çözüm 1:
+İlk olarak $f'(x)$ değerini bulalım. $f'(x)=\frac{-2x}{2\sqrt{16-x^2}}=-\frac{x}{\sqrt{16-x^2}}$ ve $[f'(x)]^2=\frac{x^2}{16-x^2}$. Bu değerleri formülde yerine yazalım. $S=2\pi\cdot\int_{-4}^0 \sqrt{16-x^2}\sqrt{1+\frac{x^2}{16-x^2}}dx$. Şimdi bu iğrenç görünümlü şeyi çözeceğiz. Sadece iki kareköke konsantre ol, ikisini çarp: $\sqrt{(16-x^2)\cdot(1+\frac{x^2}{16-x^2})}$, ikinci parantezin içini yap $\sqrt{(16-x^2)\cdot\frac{16}{16-x^2}}=\sqrt{16}=4$. Bu güzel sonucu integrale geri götür. $S=8\pi\int_{-4}^0 dx=8\pi(x|_{-4}^0)=(0-(-4))\cdot8\pi=32\pi$ $br^2$.
+![[Pasted image 20220526202715.png]]
+
 ### y-ekseni etrafında döndürülme
 $y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan yapının yüzey alanı 
  - $S=2\pi \int_a^b x\sqrt{1+[f'(x)]^2}dx$ $br^2$ 
