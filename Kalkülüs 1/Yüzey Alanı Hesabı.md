@@ -1,10 +1,17 @@
-Dönel cisim, bir $f(x)$ eğrisi, bir eksen etrafında döndürüldüğünde meydana gelen yapıdır.
+## Tanım
+$f(x)$, $[a,b]$ aralığında tanımlı, $\forall x\in[a,b]$ için $f(x)\geq0$ ve $f'(x)$ mevcut olsun. Bu durumda, aralıkta kalan eğrinin seçilen eksen etrafında döndürülmesi ile oluşan cisme dönel cisim denir.
+
+Cismin yüzey alanının hesabı yapılırken eğrinin etrafında döndürüldüğü eksene göre kullanılacak formül belirlenir. 
 
 ### x-ekseni etrafında döndürülme
-$y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan yapının yüzey alanı $S=2\pi \int_a^b f(x)\sqrt{1+[f'(x)]^2}dx$ $br^2$ olarak hesaplanır.
+$y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan yapının yüzey alanı 
+- $S=2\pi \int_a^b f(x)\sqrt{1+[f'(x)]^2}dx$ $br^2$
+olarak hesaplanır.
 
 ### y-ekseni etrafında döndürülme
-$y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan yapının yüzey alanı $S=2\pi \int_a^b x\sqrt{1+[f'(x)]^2}dx$ $br^2$ olarak hesaplanır.
+$y=f(x)$, $a\leq x\leq b$ eğrisi x-ekseni etrafında döndürülüyorsa oluşan yapının yüzey alanı 
+ - $S=2\pi \int_a^b x\sqrt{1+[f'(x)]^2}dx$ $br^2$ 
+olarak hesaplanır.
 
 ###### Örnek 1:
 $y=\sqrt{16-x^2}$ eğrisinin $[0,\sqrt7]$ aralığında kalan parçasının y-ekseni etrafında döndürülmesi ile oluşan cismin yüzey alanı kaç birimkaredir?
