@@ -23,4 +23,4 @@ $=\frac{1}{5} \int_1^6 u^{1/2}du$
 $=\frac{1}{5}\cdot\frac{2}{3}\cdot((x+3)^{3/2}|_1^6)$ 
 $=\frac{2}{15}\cdot(\sqrt{9^3}-\sqrt{4^3})$
 $=\frac{2\cdot(3^3-2^3)}{15}=38/15$.
-Ve elbette $f(c)=\sqrt{c+3}=38/15$ ki korkunç biçimde $c=\frac{38^2-3\cdot15^2}{15^2}=\frac{769}{225}$.
+	Ve elbette $f(c)=\sqrt{c+3}=38/15$ ki korkunç biçimde $c=\frac{38^2-3\cdot15^2}{15^2}=\frac{769}{225}$.
