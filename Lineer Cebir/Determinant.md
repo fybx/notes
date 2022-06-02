@@ -31,8 +31,8 @@ $2\times2$ boyutlu matrislerin determinantı:
 $A=\left[ {\begin{array}{cc}a&b\\c&d \end{array} } \right]$ ise $detA=ad-bc$  olarak hesaplanır.
 
 ### 3x3 Matris
-![[Pasted image 20220602135323.png]]
-$3\times3$ veya $3\times n$ boyutlu Sarrus Yöntemi ile hesaplanır. $A=\left[ {\begin{array}{cc}a&b&c\\d&e&f\\g&h&j \end{array} } \right]$ ise $detA=aej+dhc+gbf-ceg-fha-jbd$ olarak hesaplanır.
+![[Pasted image 20220602194053.png]]
+$3\times3$ veya $3\times n$ boyutlu matrislerin determinantı *Sarrus Yöntemi* ile hesaplanır. $A=\left[ {\begin{array}{cc}a&b&c\\d&e&f\\g&h&j \end{array} } \right]$ ise $detA=(aej+dhc+gbf)-(ceg+fha+jbd)$ olarak hesaplanır.
 
 ### nxn Matris
 Tüm matrislerin determinantının hesaplanmasında [[Kofaktör]]ler kullanılabilir. $n=4$ ve üstü için Sarrus Yöntemi gibi bir yöntem bulunmadığından kofaktörler kullanılmak zorundadır.
