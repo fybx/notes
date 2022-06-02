@@ -32,17 +32,21 @@ $A=\left[ {\begin{array}{cc}a&b\\c&d \end{array} } \right]$ ise $detA=ad-bc$  ol
 
 ### 3x3 Matris
 ![[Pasted image 20220602135323.png]]
-Sarrus Yöntemi ile hesaplanır. $A=\left[ {\begin{array}{cc}a&b&c\\d&e&f\\g&h&j \end{array} } \right]$ ise $detA=aej+dhc+gbf-ceg-fha-jbd$ olarak hesaplanır.
+$3\times3$ veya $3\times n$ boyutlu Sarrus Yöntemi ile hesaplanır. $A=\left[ {\begin{array}{cc}a&b&c\\d&e&f\\g&h&j \end{array} } \right]$ ise $detA=aej+dhc+gbf-ceg-fha-jbd$ olarak hesaplanır.
 
 ### nxn Matris
 Tüm matrislerin determinantının hesaplanmasında [[Kofaktör]]ler kullanılabilir. $n=4$ ve üstü için Sarrus Yöntemi gibi bir yöntem bulunmadığından kofaktörler kullanılmak zorundadır.
 
 İzlenebilecek başka bir yöntem ise [[Determinant#Özellikler]] kısmında verilen 3 ve 5. maddeleri kullanarak matrisi 6. özellikle işlenebilir hale getirmektir.
 
+Kofaktörleri kullanarak determinantı hesaplayalım.
 Örnek matrisimiz $A=\left[ {\begin{array}{cc}a&b&c\\d&e&f\\g&h&j \end{array} } \right]$ olacaktır.
 1. Determinantı alınacak matrisin istenilen satırı veya sütunu seçilir. (içinde bol 0 olması önerilir)
 Örnek için birinci satırı seçtik
 2. Seçilen satır veya sütundaki her elemanla kendisinin kofaktörünün çarpımı toplanır. Sonuç matrisin determinantıdır.
+Aşağıdaki satıra **A matrisinin 1. satırına göre determinant açılımı** denir.
 $detA=a\cdot A_{11}+b\cdot A_{12}+c\cdot A_{13}$
 $=a(ej-hf)+b(gf-dj)+c(dh-eg)$
 $=aej-ahf+bgf-bdj+cdh-ceg$.
+
+A matrisinin determinantını bulmak için herhangi bir satır veya sütun kullanılabilirdi.
