@@ -48,6 +48,9 @@ $\forall A\in F_{n\times n}$ matrisinin kendisi ile $k$ defa çarpımına $A$ ma
 ### Matrisin Tersi
 $\forall A\in F_{n\times n}$ matrisi seçiliyor. Eğer $AB=BA=I_n$ olacak şekilde bir $B\in F_{n\times n}$ matrisi varsa $B$ matrisine *$A$ matrisinin tersi* denir ve $B=A^{-1}$ ile gösterilir. Bu şekildeki bir $A$ matrisi *tekil olmayan (singüler olmayan, düzgün, tersinir, ters çevrilebilir) matris* olarak adlandırılır. Aksi durumda da *tekil (singüler...)* olarak adlandırılır.
 
+Seçtiğimiz $A$ matrisinin tersi $A^{-1}$ matrisinin mevcut olup olmadığını [[Determinant]] yardımıyla belirlemek mümkündür. $detA=|A|\neq0$ ise $A^{-1}$ mevcuttur ve 
+$A^{-1}=\frac 1{detA}\cdot EkA$ olarak hesaplanır. Burada $EkA$ ifadesi [[Matris#Ek Adjoint Matris]] hesabıdır.
+
 - Tekil olmayan $n\times n$ matris $A$ ve $B$ ise $AB$ matrisi de tekil olmayan matristir ve $(AB)^{-1}=B^{-1}A^{-1}$'dir.
 - $\forall A\in F_{n\times n}$ tekil olmayan matris ise $A^T$ de tekil olmayan matristir. 
 
@@ -78,6 +81,11 @@ $A=[a_{ij}]\in \mathbb{R}_{n\times n}$ matrisi seçiliyor. Eğer $A^T=-A$ oluyor
 
 ### Ortagonal Matris
 $A=[a_{ij}]\in \mathbb{R}_{n\times n}$ matrisi seçiliyor. Eğer $AA^T=A^TA=I_n$ oluyorsa $A$ matrisine *ortagonal matris* denir. 
+
+### Ek (Adjoint) Matris
+$A=[a_{ij}]\in \mathbb{R}_{n\times n}$ matrisi seçiliyor. $A$ matrisinin tüm $a_{ij}$ elemanlarının yerine [[Kofaktör]]lerinin yazıldığı ve transpozesinin alındığı matrise $A$'nın *ek matrisi* veya *adjointi* denir. $\tilde A$, $Ek(A)$, $Adj(A)$ ile gösterilir. $Adj(A)=[A_{ij}]^T=[A_{ji}]$ olur.
+
+$A=\left[{\begin{array}{cc}a&b\\c&d\\\end{array}}\right]$ ise $Adj(A)=\left[ {\begin{array}{cc}d&b\\-c&a\\\end{array} } \right]$ olur.
 
 ## Örnekler
 ###### Örnek 1:

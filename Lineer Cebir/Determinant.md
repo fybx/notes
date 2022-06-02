@@ -49,4 +49,4 @@ $detA=a\cdot A_{11}+b\cdot A_{12}+c\cdot A_{13}$
 $=a(ej-hf)+b(gf-dj)+c(dh-eg)$
 $=aej-ahf+bgf-bdj+cdh-ceg$.
 
-A matrisinin determinantını bulmak için herhangi bir satır veya sütun kullanılabilirdi.
+A matrisinin determinantını bulmak için herhangi bir satır veya sütunun açılımı kullanılabilirdi.
