@@ -53,15 +53,19 @@ $\forall A\in F_{n\times n}$ matrisi seçiliyor. Eğer $AB=BA=I_n$ olacak şekil
 
 ## Özel Matrisler
 ### Köşegen Matris
+![[Pasted image 20220602173536.png]]
 $A=[a_{ij}]\in F_{n\times n}$ matrisinde her $i\neq j$ için $a_{ij}=0$ oluyorsa, yani $A$ matrisinin esas köşegen üzerindeki elemanları hariç tüm elemanları sıfırsa, $A$ matrisine *köşegen matris* denir.
 
 ### Skaler Matris
+![[Pasted image 20220602173844.png]]
 $A=[a_{ij}]\in F_{n\times n}$ matrisi bir köşegen matris olmak üzere $A$'nın esas köşegen elemanları aynı skalere eşit ise $A$ matrisine *skaler matris* denir.
 
 ### Birim Matris
+![[Pasted image 20220602173811.png]]
 $A$ bir skaler matris ve esas köşegen elemanları $1$ ise $A$ matrisine *n. dereceden birim matris* denir ve $I_n$ ile gösterilir.
 
 ### Üçgensel Matris
+![[Pasted image 20220602174304.png]]
 $A=[a_{ij}]\in F_{n\times n}$ matrisinde $i>j$ için $a_{ij}=0$ ise $A$ matrisine *üst üçgensel matris*, $j>i$ için $a_{ij}=0$ ise *alt üçgensel matris* denir.
 
 ### Simetrik Matris
