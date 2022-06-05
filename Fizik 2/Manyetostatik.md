@@ -22,3 +22,15 @@ Akım taşıyan bir telin herhangi bir parçasını izole ederek başlayacağız
 Aldığımız tel parçası sonsuz küçüklükte olduğundan üzerine etkiyen $B$ manyetik alanı *düzgün* olacaktır. Böylece tel parçasına etkiyen $\overrightarrow dF$ kuvvetini $\overrightarrow dF=dq\cdot v\times B$
 $=dq\cdot\frac{d\overrightarrow l}{dt}\times \overrightarrow B$, bu noktada $I=\frac{dq}{dt}\Rightarrow dq=Idt$ yer değiştirmesiyle
 $dF=IdlB\sin\theta$ olacaktır. Vektörel açılımı yapmasaydık aynı denklem $\overrightarrow dF=I\cdot\overrightarrow dl\times\overrightarrow B$ biçiminde yazılacaktı.
+
+Elimizdeki sonsuz küçük tel parçasından yola çıkarak (uzunluğunu bildiğimiz) sonlu bir tel parçasının üzerine etkiyen kuvveti tespit etmek için bulduğumuz bağıntının iki tarafının da integralini alacağız.
+$F_{man.}=I\int_a^b(\overrightarrow dl\times\overrightarrow B)$ manyetik alana yerleştirilen herhangi bir tel parçasının a noktasından b noktasına dek etkiyen manyetik alan kuvvetini verir. Biz bu integrali çözmek için içinden $I$ akımı geçen, manyetik alana dik yerleştirilmiş, $L$ uzunluğundaki teli ele alacağız. Bahsettiğimiz tel $(+y)$ ekseni üzerinde yer almakta, manyetik alan $(+x)$'e dik biçimde konumlandırılmış.
+![](Pasted%20image%2020220605195940.png)
+Her küçük tel parçasına etkiyen kuvvet $\overrightarrow dF=I[(dl\cdot\hat j)\times(B\hat i)]$
+$=IBdl(\hat j\times\hat i)$
+$=IBdl\cdot(-\hat k)$ olur. Bu ifadenin integralini aldığımızda
+$\int\overrightarrow dF=(IB\int_0^L dl)\cdot(-\hat k)$ 
+$=IBL\cdot(-\hat k)$ olarak bulunur.
+
+Aşağıdaki kısa formül yukarıda yaptığımız işlemlerle aynı sonucu verecektir.
+> $\overrightarrow F=IBL\sin\theta\cdot\hat k$
