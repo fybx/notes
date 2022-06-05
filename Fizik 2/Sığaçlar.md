@@ -9,10 +9,10 @@ Biri +q ve diğeri -q ile yüklenmiş iki parçacığı uzayda aralarında d uza
 - Dolayısıyla *sığanın birimi* **Coulomb/Volt** olan **Farad**'dır.
 
 ### Paralel Plakalı Sığaçlar
-Aralarındaki mesafe $d$, plakaların yüzey alanı $A$, iki uç arası potansiyel fark $V_{ab}$ ve birisi $+q$ diğeri $-q$ yüklü iki paralel iletken levhaların arasındaki elektrik alanı Gauss Yasasını kullanarak hesaplayabiliriz. $E=\frac{\sigma}{\epsilon_0}$ şeklinde ifade edilir. Burada sigma, yüzey yük yoğunluğunu ifade eder ve yük düzgün dağıldıysa $\frac QA$ olur. Düzgün elektrik alan ile potansiyel fark arasında da $E=\frac {V_{ab}}d$ bağıntısı vardır. İki bağıntı beraber yazılıp düzenlendiğinde
-$\frac{Q}{A\epsilon_0}=\frac{V_{ab}}d$
-$\Rightarrow\frac{Q}{V_{ab}}=\frac{A\epsilon_0}{d}$ 
-$\Rightarrow C=\epsilon_0\cdot\frac{A}{d}$.
+Aralarındaki mesafe $d$, plakaların yüzey alanı $A$, iki uç arası potansiyel fark $V_{ab}$ ve birisi $+q$ diğeri $-q$ yüklü iki paralel iletken levhaların arasındaki elektrik alanı Gauss Yasasını kullanarak hesaplayabiliriz. $E=\frac{\sigma}{\varepsilon_0}$ şeklinde ifade edilir. Burada sigma, yüzey yük yoğunluğunu ifade eder ve yük düzgün dağıldıysa $\frac QA$ olur. Düzgün elektrik alan ile potansiyel fark arasında da $E=\frac {V_{ab}}d$ bağıntısı vardır. İki bağıntı beraber yazılıp düzenlendiğinde
+$\frac{Q}{A\varepsilon_0}=\frac{V_{ab}}d$
+$\Rightarrow\frac{Q}{V_{ab}}=\frac{A\varepsilon_0}{d}$ 
+$\Rightarrow C=\varepsilon_0\cdot\frac{A}{d}$.
 
 ### Sığaçta Depo Edilen Enerji
  ![[Pasted image 20220531143544.png]]
@@ -30,8 +30,8 @@ Sığaçlarda enerji elektrik alanda depo edilir. Paralel plakalı sığaçlarda
 ![[Pasted image 20220531145008.png]]
 Sığacın hacmi $V=Ad$ olarak gösterilebilir ve sığaçta depo edilen enerji $U=\frac 12 CV^2$ olarak hesaplanmıştı.
 Böylece enerji yoğunluğu $u=\frac{1/2 CV^2}{Ad}$
-$=1/2 \frac{Ad^{-1}\epsilon_0(Ed)^2}{Ad}$
-$=\frac 12 \epsilon_0 E^2$ olur. Birimi **Joule/metreküp**'tür.
+$=1/2 \frac{Ad^{-1}\varepsilon_0(Ed)^2}{Ad}$
+$=\frac 12 \varepsilon_0 E^2$ olur. Birimi **Joule/metreküp**'tür.
 
 ### Sığaçların Bağlanması
 #### Seri Bağlanma
@@ -53,7 +53,7 @@ $C_{eş}=C_1+C_2$
 ### Sığaçlar ve Yalıtkanlar (Dielektrikler) Arasındaki İlişki
 1. Levhalar arası boş
 ![[Pasted image 20220531153434.png]]
-Levhalar arası boşluk olan sığacın sığası $C_0=\epsilon_0\frac Ad$ olarak hesaplanır.
+Levhalar arası boşluk olan sığacın sığası $C_0=\varepsilon_0\frac Ad$ olarak hesaplanır.
 
 2. Levhaların arasında dielektrik madde var
 ![[Pasted image 20220531153646.png]]

@@ -6,20 +6,20 @@ Cismin iki ucu arasında potansiyel fark sıfıra eşit olduğunda, metalin içi
 
 Bir devreden akım geçmesi için devrenin **kapalı devre** olması ve devrede **elektromotor kuvvet kaynağı** bulunması gerekir.
 ![[Pasted image 20220531224339.png]]
-Yukarıdaki şekilde gösterilen pil hücresi bir elektromotor kuvvet kaynağıdır. İdeal bir bataryanın iki ucu arasında yarattığı potansiyel fark $V_{ab}$, bataryanın elektromotor kuvveti $\epsilon$'a eşittir.
+Yukarıdaki şekilde gösterilen pil hücresi bir elektromotor kuvvet kaynağıdır. İdeal bir bataryanın iki ucu arasında yarattığı potansiyel fark $V_{ab}$, bataryanın elektromotor kuvveti $\varepsilon$'a eşittir.
 
 ## Kapalı Basit Devre
 ![[Pasted image 20220531225121.png]]
-İdeal bir bataryaya bağlı, değeri $R$ olan direncin a ve b kolları arasındaki potansiyel fark $V_{ab}=\epsilon=IR$ olur. Eğer aynı devre *ideal olmayan* bir batarya ile kurulmuş olsaydı, bataryanın iç direnci söz konusu olurdu.
+İdeal bir bataryaya bağlı, değeri $R$ olan direncin a ve b kolları arasındaki potansiyel fark $V_{ab}=\varepsilon=IR$ olur. Eğer aynı devre *ideal olmayan* bir batarya ile kurulmuş olsaydı, bataryanın iç direnci söz konusu olurdu.
 
 ### İdeal Olmayan Bataryanın İç Direnci
 ![[Pasted image 20220531225634.png]]
 İdeal olmayan bataryanın iç direncinden ötürü direnç üzerindeki potansiyel fark azalacaktır.
-$V_{ac}$ bataryanın potansiyel farkı elektromotor kuvvet $\epsilon$ olduğu görülmektedir. $V_{bc}$ potansiyel farkının iç dirence, $V_{ab}$ potansiyel farkının da $R$ direncine ait olduğu görülmektedir. Öyleyse $V_{ac}=\epsilon=V_{ab}+V_{bc}$ olarak bir arada yazabiliriz. Buradan $\epsilon=IR+Ir$ geleceği açıktır.
+$V_{ac}$ bataryanın potansiyel farkı elektromotor kuvvet $\varepsilon$ olduğu görülmektedir. $V_{bc}$ potansiyel farkının iç dirence, $V_{ab}$ potansiyel farkının da $R$ direncine ait olduğu görülmektedir. Öyleyse $V_{ac}=\varepsilon=V_{ab}+V_{bc}$ olarak bir arada yazabiliriz. Buradan $\varepsilon=IR+Ir$ geleceği açıktır.
 
-Sonuç olarak iç direncin yarattığı kayıptan ötürü devrenin yükü olan $R$ direnci üzerindeki potansiyel fark, ideal bataryanın yarattığı elektromotor kuvvetten daha az olacaktır. Direncin kolları arası pot. fark $V_{ab}=\epsilon-Ir$ olduğu görülür.
+Sonuç olarak iç direncin yarattığı kayıptan ötürü devrenin yükü olan $R$ direnci üzerindeki potansiyel fark, ideal bataryanın yarattığı elektromotor kuvvetten daha az olacaktır. Direncin kolları arası pot. fark $V_{ab}=\varepsilon-Ir$ olduğu görülür.
 
-İdeal olmayan batarya bulunan devrede akımı hesaplamak için de yukarıdaki bağıntıdan hareketle $I=\frac\epsilon{R+r}$ ve genelleştirildiğinde $I=\frac{\sum\epsilon}{\sum R}$ elde edilir.
+İdeal olmayan batarya bulunan devrede akımı hesaplamak için de yukarıdaki bağıntıdan hareketle $I=\frac\varepsilon{R+r}$ ve genelleştirildiğinde $I=\frac{\sum\varepsilon}{\sum R}$ elde edilir.
 
 ## Ölçüm Aletleri
 ### Ampermetre
