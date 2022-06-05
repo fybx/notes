@@ -1,0 +1,5 @@
+## Tanım
+Bir [Manyetik Alan](Manyetik%20Alan.md)ın içinde yer alan yüklü parçacığa etkiyen kuvvete *manyetik kuvvet* denir. Manyetik kuvvetin büyüklüğü $q$ yükü, $v_\bot$ manyetik alana dik olan hız bileşeni ve $B$ ile orantılıdır. Dolayısıyla manyetik kuvvet $F_{man.}=qv\times B$ olarak gösterilir. Eğer $v$ ile $B$ arasındaki açı $180^\circ$ ise $F_{man.}$'in büyüklüğü $|F_{man.}|=qvB\sin\theta$ bağıntısında $\sin\theta=0$ olacağından sıfır olur.
+
+![](Pasted%20image%2020220605152956.png)
+Yüklü parçacığa etkiyen kuvvetin yönünü bulmak için sağ el kuralı kullanılabilir. Baş parmak $v$ hız vektörü, dört parmak $B$ manyetik alanın yönünü gösteriyorsa avuç içi $F_{man.}$ vektörünün yönünü verir. Dikkat edilmesi gereken tek detay, parçacığın yükünün işaretidir. $(-)$ yüklü parçacıkların $F_{man.}$ vektörünün yönü $(+)$ parçacıkların tam tersi olacağından, sağ el kuralıyla bulunan yönün tersinin doğru yön olduğu unutulmamalıdır.
