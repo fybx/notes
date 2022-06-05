@@ -1,6 +1,6 @@
 ## Sığacın Şarjı
 ![](Pasted%20image%2020220605050915.png)
-Şekilde gördüğümüz devre bir RC (Resistor - Capacitor) devresidir. Devre anahtarı kapatıldığında elektromotor kuvvet etkisiyle hareket eden yükler kapasitörün şarj olmasını sağlar. Kapasitör şarj olduktan sonra devreden akım geçmez.
+Şekilde gördüğümüz devre bir RC (Resistor - Capacitor) devresidir. Devre anahtarı kapatıldığında elektromotor kuvvet etkisiyle hareket eden yükler [Sığaç](Sığaç.md)ın şarj olmasını sağlar. Kapasitör şarj olduktan sonra devreden akım geçmez.
 
 Bu olaydan iki denklem çıkaracağız. İlk denklem *zamana bağlı olarak devrede akan yükü* veren $q(t)$ fonksiyonunu elde etmemizi sağlayacak.
 
