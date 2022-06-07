@@ -12,7 +12,7 @@ $\lbrace0\rbrace$ ve $V$ alt uzaylarına $V$'nin *aşikar alt uzayı*, geri kala
 ###### Örnek 1:
  $W=\lbrace(x_1,x_2,x_3)\in\mathbb{R}^3|x_1=0\rbrace$ kümesi $\mathbb{R}^3$'ün bir alt uzayı mıdır?
 
-1. $\forall a,b,c,d\in\mathbb{R}$ için $W_1=(0,a,b)$ ve $W_2=(0,c,d)$ seçilsin. $W_1+W_2=(0,a+b,c+d)\in\mathbb{R}^3$ olduğu açıktır.
+1. $\forall a,b,c,d\in\mathbb{R}$ için $W_1=(0,a,b)$ ve $W_2=(0,c,d)$ seçilsin. $W_1+W_2=(0,a+c,b+d)\in\mathbb{R}^3$ olduğu açıktır.
 2. $\forall x,a,b\in\mathbb{R}$ için $w=(0,a,b)\in W$ seçilsin. $c\cdot w=(c\cdot 0,c\cdot a,c\cdot b)=(0,ac,bc)\in\mathbb{R}^3$ olduğu açıktır. 
 $\therefore W, \mathbb{R}^3$'ün bir alt uzayıdır.
 
