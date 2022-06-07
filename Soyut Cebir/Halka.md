@@ -1,8 +1,9 @@
 ## Tanım
-$H=\emptyset$ bir küme, $\odot$ ve $\oplus$ da iki [[İkili İşlem]] olsun. Aşağıdaki kuralları sağlayan $<H,\odot, \oplus>$  [[Cebirsel Yapı]]sına **halka** denir.
-1. $<H,\odot>$ bir [[Grup#Değişmeli Abel Grup]]tur.
-2. $\oplus$ işleminin $H$ kümesinde birleşmelidir. ($\oplus$ işlemi asosyatiftir)
-3. $\forall a,b,c\in H$ için $a\oplus(b\odot c)=(a\oplus b)\odot(a\oplus c)$ sol dağılma ve $(a\odot b)\oplus c= (a \oplus c)\odot(b \oplus c)$ sağ dağılma geçerlidir.
+$H=\emptyset$ bir küme, $\oplus$ ve $\odot$ da iki [[İkili İşlem]] olsun. Aşağıdaki kuralları sağlayan $<H,\oplus,\odot>$  [[Cebirsel Yapı]]sına **halka** denir.
+1. $<H,\oplus>$ bir [[Grup#Değişmeli Abel Grup]]tur.
+2. $\odot$ işlemi asosyatiftir. $\forall a,b,c\in H$ için $a\odot(b\odot c)=(a\odot b)\odot c$.
+3. $\odot$ işlemi $\oplus$ işlemine sağdan ve soldan dağılmalıdır.
+4. $\forall a,b,c\in H$ için $a\oplus(b\odot c)=(a\oplus b)\odot(a\oplus c)$ sol dağılma ve $(a\odot b)\oplus c= (a \oplus c)\odot(b \oplus c)$ sağ dağılma geçerlidir
 
 ### Halkanın Sıfırı
 Halkanın 1. işlemine göre [[İkili İşlem#Birim Özdeşlik Etkisiz Eleman]]ına **halkanın sıfırı** denir. $0_{H}$ biçiminde gösterilir. Her halkanın sıfırı mecburen vardır. (H1 > G2)
